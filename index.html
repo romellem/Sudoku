@@ -14,24 +14,6 @@
   <body>
   	<img src="screenshot.png" alt="Screenshot Preview" style="position:fixed;top:-9999px;"/>
     <div id="GameView"></div>
-	<?php if( !isset($_GET['embed']) || !$_GET['embed'] ): ?><div id="contents">
-	<h4>General Information</h4>
-		<p class="author">Author: Seungmin Kim(<a href="mailto:olimot@gmail.com">olimot@gmail.com</a>)
-		<br>Github: <a class="github" href="https://github.com/olimot/Sudoku">https://github.com/olimot/sudoku</a></p>
-		<p>17-clue sudokus are taken from <a href="http://staffhome.ecm.uwa.edu.au/~00013890/sudokumin.php">the list made by <strong>Gordon Royle</strong></a> of The University of Western Australia without any transformation. this list is licensed under a <a href="http://creativecommons.org/licenses/by/2.5/">Creative Commons Attribution 2.5 License.</a></p>
-	<h4>Play Instruction</h4>
-How to use interface:
-<ul><li>Swipe left or right the generate button to change the level</li>
-<li>Click the generate button to generate a game in the level shown at the label of button</li>
-<li>Click a number 1~9 below or simply press a key of 1~9 in keyboard to get a number in hand. then, click on the cell to put a number</li>
-<li>Select a selected number below one more time, then you can note a guess number on the board.</li>
-</ul>
-In the table you can use:
-
-<ul><li>Left click : put a number or remove it if numbers in table/hand are same</li>
-<li>Middle click or Ctrl + Left Click : note a guess number or remove it if numbers in table/hand are same</li>
-<li>Right click : remove number</li>
-	</div><?php endif; ?>
 	<script src="sudoku.js"></script>
 	<script>
 	;(function($, window, document, undefined){
