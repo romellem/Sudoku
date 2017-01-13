@@ -145,11 +145,7 @@
 				e.preventDefault(); 
 				playingLevel = generatingLevel;
 				if(generatingLevel>=Sudoku.Difficulty.length){
-					$.get('import.php', function(str){
-						game.load(str);
-						renderGameTable();
-						console.timeEnd('Generate sudoku');
-					})
+					alert('Currently disabled, sorry!');
 					return;
 				}
 				game.generate(generatingLevel);
