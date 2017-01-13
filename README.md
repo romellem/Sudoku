@@ -1,8 +1,7 @@
-# Sudoku
-Minimalist's Web/Mobile supported Sudoku.
+Fork of [olimot/Sudoku](https://github.com/olimot/Sudoku) to properly set
+viewport width so as to remove the 300ms delay on iOS 9.
 
-## Live demo
-If you want to check what features it does have, click: http://play.eldwis.com/sudoku/
+Play at https://romellem.github.io/Sudoku/
 
 ## Play Instruction
 How to use interface:
